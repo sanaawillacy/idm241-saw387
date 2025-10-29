@@ -1,0 +1,62 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+h2 {
+  color: #046b4c;
+}
+
+/* Links */
+a {
+  color: #046b4c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout: responsive grid */
+main {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+/* Section cards */
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Images */
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Subheadings for categories */
+.category-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1c1c1c;
+  margin-bottom: 10px;
+}
+
+/* List formatting for clarity */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+ul ul {
+  list-style-type: circle;
+}
