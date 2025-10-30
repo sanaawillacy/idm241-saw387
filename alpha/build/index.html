@@ -15,20 +15,43 @@
     <a href="https://robinhood.com/signup/" class="button signup">Sign Up</a>
 </div>
 <section>
-        <h3>TRIGGERS</h3>
-    <p>When a user hovers or clicks on the “Log in” or “Sign up” buttons, the microinteraction begins.</p>
+    
 
-    <h3>RULES</h3>
-    <p>1. Hover changes button color.<br>
-       2. Clicking navigates to the corresponding page.</p>
+       <!-- TRIGGERS -->
+    <section>
+      <h2>TRIGGERS</h2>
+      <br>
+      <h3>Log In button</h3>
+      <ul>
+        <li>Hover On: The button's background color will become slightly darker </li>
+        <li>Hover Off: The button goes back to its original color</li>
+      </ul>
+    </section>
+     <br>
+    <section>
+       <h2>RULES</h2>
+       <br> 
+      <h3>Log In button hover on: </h3>
+    <p>When the Log In button is hovered over, the button's background color and the text color within the button will darken slightly.</p>
+      <br>
+      <p>Log In button hover off: 
+        When the Log In button is hovered off, the button's background color and the text color within the button will revert to original settings.</p>
+      <br>
+      <p>Log In button click: When the Log In button is clicked, the user will be redirected to a log in screen</p>
+      
+    <section>
+      <h2>FEEDBACK</h2>
+      <p>Log In button hover on: When the Log In button is hovered over, the button's background color and the text color within the button will darken slightly.</p>
+      <p>Log In button hover on: When the Log In button is hovered off, the button's background color and the text color within the button will revert to original settings.</p>
+      <p>Log In button click: When the Log In button is clicked, the user will be redirected to a log in screen</p>
+    </section>
+    
+    <section>
+        <h2> Loops and Modes</h2>
+        <p>The hover on, hover off rules repeat whenever the user hovers on or off of the Log In button.</p>
+        <p></p>There are no modes.</p>
+    </section>
 
-    <h3>FEEDBACK</h3>
-    <p>The user sees a color transition when hovering, giving visual confirmation that the button is active.</p>
-
-    <h3>LOOPS & MODES</h3>
-    <p>This interaction repeats each time the page is loaded or hovered again. No additional modes apply.</p>
-
-</section>
 </body>
 
 </html>
