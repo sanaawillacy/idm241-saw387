@@ -23,6 +23,7 @@ h1 {
   margin-bottom: 10px;
 }
 
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -37,6 +38,19 @@ section {
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
+
+/* Reset styles for this section */
+.no-style {
+  all: unset; /* resets most inherited and applied styles */
+  display: block; /* restore normal flow */
+  margin: 0;
+  padding: 0;
+  font-family: initial;
+  color: initial;
+  background: none;
+}
+
+
 
 h2 {
   font-size: 1.4rem;
